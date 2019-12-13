@@ -1,0 +1,5 @@
+<config>
+    <type name="Magento\Quote\Model\Quote\Address\Total\AbstractTotal">
+        <plugin name="carttotalplugin" type="\Syedzaidi\CartTotal\Plugin\CartTotalPlugin" sortOrder="1" />
+    </type>
+</config>
